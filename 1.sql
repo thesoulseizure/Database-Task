@@ -1,0 +1,10 @@
+show databases;
+use tasks;
+show tables;
+select * from Empl;
+select ename,sal from Empl where sal>=2200;
+select * from Empl where comm is NULL;
+select ename,sal from Empl where sal not between 2500 and 4000;
+select ename,job,sal from Empl where mgr is NULL;
+select ename from Empl where ename like '_A%';
+select ename from Empl where ename like '%T';
